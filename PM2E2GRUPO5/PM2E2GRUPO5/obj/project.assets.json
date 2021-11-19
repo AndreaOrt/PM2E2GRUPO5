@@ -1118,24 +1118,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/andreaortiz/.nuget/packages/": {}
+    "C:\\Users\\acost\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj",
+      "projectUniqueName": "C:\\Users\\acost\\Desktop\\PM2E2GRUPO5\\PM2E2GRUPO5\\PM2E2GRUPO5\\PM2E2GRUPO5.csproj",
       "projectName": "PM2E2GRUPO5",
-      "projectPath": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj",
-      "packagesPath": "/Users/andreaortiz/.nuget/packages/",
-      "outputPath": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/obj/",
+      "projectPath": "C:\\Users\\acost\\Desktop\\PM2E2GRUPO5\\PM2E2GRUPO5\\PM2E2GRUPO5\\PM2E2GRUPO5.csproj",
+      "packagesPath": "C:\\Users\\acost\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acost\\Desktop\\PM2E2GRUPO5\\PM2E2GRUPO5\\PM2E2GRUPO5\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/andreaortiz/.config/NuGet/NuGet.Config"
+        "C:\\Users\\acost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1207,7 +1214,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

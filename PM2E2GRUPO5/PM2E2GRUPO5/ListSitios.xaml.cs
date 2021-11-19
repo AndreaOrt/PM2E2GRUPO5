@@ -22,6 +22,8 @@ namespace PM2E2GRUPO5
         Object objSitioGlobal = null;
         string idGlobal = "";
         string sitioGlobal = "";
+        string latitud = "";
+        string longitud = "";
         public ListSitios()
         {
             InitializeComponent();
@@ -87,6 +89,8 @@ namespace PM2E2GRUPO5
 
             idGlobal = sitioSelecionado.id;
             sitioGlobal = sitioSelecionado.descripcion;
+            latitud = sitioSelecionado.lalitud;
+            longitud = sitioSelecionado.longitud;
 
             objSitioGlobal = new
             {
@@ -176,12 +180,12 @@ namespace PM2E2GRUPO5
 
                 if (validar == true)
                 {
-                    Console.WriteLine(objSitioGlobal);
+                    Console.WriteLine(objSitioGlobal.GetType());
 
 
-                    if (!double.TryParse("37.4219983333333", out double lat))
+                    if (!double.TryParse(latitud, out double lat))
                         return;
-                    if (!double.TryParse("-122.084", out double lng))
+                    if (!double.TryParse(longitud, out double lng))
                         return;
                     await Map.OpenAsync(lat, lng, new MapLaunchOptions
                     {
