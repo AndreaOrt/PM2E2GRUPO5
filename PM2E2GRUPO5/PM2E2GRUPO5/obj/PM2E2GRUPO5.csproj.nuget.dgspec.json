@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj": {}
+  },
+  "projects": {
+    "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj",
+        "projectName": "PM2E2GRUPO5",
+        "projectPath": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5.csproj",
+        "packagesPath": "/Users/andreaortiz/.nuget/packages/",
+        "outputPath": "/Users/andreaortiz/Projects/PM2E2GRUPO5/PM2E2GRUPO5/PM2E2GRUPO5/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andreaortiz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2244, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2244, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

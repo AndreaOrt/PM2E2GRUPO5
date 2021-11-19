@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{61571E2D-0C25-4A60-95B4-CC2161F708C1}|Default">
+  <MonoDevelop.Ide.ItemProperties.PM2E2GRUPO5.Android PreferredExecutionTarget="Android.Nexus_5X_API_25" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PM2E2GRUPO5/PM2E2GRUPO5/ListSitios.xaml">
+    <Files>
+      <File FileName="PM2E2GRUPO5/PM2E2GRUPO5/ListSitios.xaml.cs" Line="1" Column="1" />
+      <File FileName="PM2E2GRUPO5/PM2E2GRUPO5/ListSitios.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PM2E2GRUPO5" expanded="True">
+            <Node name="PM2E2GRUPO5" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="ListSitios.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="ModificarDatosPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
